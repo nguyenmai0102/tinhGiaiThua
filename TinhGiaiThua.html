@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="nhap">
+<button onclick="tinhGT()">tinhGT</button>
+<h2 id="hienThi"></h2>
+<script>
+  function tinhGT(){
+    let n=document.getElementById('nhap').value
+    let a= 1;
+    for (let i = 1; i <=n; i++) {
+      a=a*i
+        console.log('a==========',a)
+    }
+    document.getElementById('hienThi').innerHTML =a
+    }
+
+</script>
+
+
+</body>
+</html>
